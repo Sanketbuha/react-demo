@@ -3,6 +3,7 @@ import './style.css';
 import RulesHook from './component/rulesHook';
 import UseStateArray from './component/UseStateArray';
 import BasicForm from './component/basicForm';
+import UseEffects1 from './component/useEffects1';
 
 const App = () => {
   // const [myName, setMyName] = useState('Hello ');
@@ -19,7 +20,8 @@ const App = () => {
       <button onClick={changeName}> click </button> */}
       {/* <RulesHook /> */}
       {/* <UseStateArray /> */}
-      <BasicForm />
+      {/* <BasicForm /> */}
+      <UseEffects1 />
     </div>
   );
 };
